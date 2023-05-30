@@ -114,7 +114,7 @@ public class DiaryEditor extends JFrame {
             entry.setDate(entryDate);
             entry.setDescription(entryDescription);
             diary.addEntry(entry);
-            entries.add(entry);
+            //entries.add(entry);
             clearTextBar();
         }
     }
